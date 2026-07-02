@@ -2,7 +2,7 @@ import cron from "node-cron";
 import campaignService from "../services/campaign.service.js";
 console.log("✅ engagement.cron.ts loaded");
 
-cron.schedule("*/2 * * * *", async () => {
+cron.schedule("*/4 * * * *", async () => {
   console.log("Running daily engagement campaign...");
 
   try {
